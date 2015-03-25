@@ -19,7 +19,7 @@ mount -o loop -t ext2 $tmp_initrd_img $initrd_mnt
 
 cp -a $initrd_img/* $initrd_mnt/
 version=1.0.2.
-beta_version=0
+beta_version=1
 date_value_1=`date +%Y.%m.%d.%H%M`
 date_value_2=`date +%Y/%m/%d`
 
